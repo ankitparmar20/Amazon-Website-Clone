@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+    .contact{
+	background: #f5f4f3;
+	
+    }
+    .text-center{
+        text-align: center;
+    }
+    .form{
+        max-width: 700px;
+        margin: auto;
+    }
+    .form input{
+        width: 100%;
+        height: 27px;
+        margin-top: 20px;
+        font-size: 16px;
+        border-radius: 10px ;
+        border: 1px solid grey;
+        padding: 2px 5px;
+    }
+    textarea{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+        border-radius: 10px ;
+        border: 1px solid grey;
+        padding: 0px 5px;
+        font-family: vardana;
+    }
+    .submit input{
+        width: 200px;
+        background: grey;
+        color: white;
+        border: 2px solid grey;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 165px;
+    }
+    .submit input:hover{
+        color: black ;
+    }
+    section{
+            margin: auto;
+         height: 700px;
+    }
+   h1{
+    font-size: 40px;
+    font-weight: bold;
+   }
+
+ </style>
+</head>
+<body>
+    <section class="contact">
+		<h1 class="text-center">Contact Us</h1><br>
+        <form action="index.html" target="_blank">
+		<div class="form">
+			 <input type="text" name="name" id="name" placeholder="Enter your name.....">
+		</div>
+		<div class="form">
+			<input type="number" name="phone" id="phone" placeholder="Enter your phone no....">
+		</div>
+		<div class="form">
+			<input type="email" name="email" id="email" placeholder="Enter your Email........">
+		</div>
+		<div class="form">
+			<textarea cols="50" rows="7" placeholder="Ellaborate your concern"></textarea>
+		</div>
+		<div class="form submit" >
+			<input type="submit" name="submit" value="Submit">
+		</div>
+    </form>
+	</section>
+	
+	
+</body>
+</html>
